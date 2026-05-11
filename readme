@@ -2,20 +2,33 @@
 
 This repository contains practical Python templates for marketing and growth analysis.
 
-The notebooks focus on common performance marketing questions such as:
+The goal is to analyze campaign performance using CSV exports from platforms such as Meta Ads, Google Ads, email marketing tools, CRM systems, GA4, or webinar platforms.
 
-- Which channel brings the highest-quality leads?
-- Which campaign has the best ROAS?
-- Where does the funnel break?
-- How do show-up rates and lead-to-sale rates compare by channel?
-- Which segments should receive more or less budget?
+## What this project analyzes
+
+- Channel performance
+- Campaign performance
+- Lead quality
+- Webinar show-up rate
+- Lead-to-sale conversion
+- Cost per lead
+- Customer acquisition cost
+- ROAS
 
 ## Tools used
 
 - Python
 - pandas
 - matplotlib
-- Google Colab
+- Google Colab / Jupyter Notebook
+
+## Example business questions
+
+- Which channel generates the highest-quality leads?
+- Which campaign has the strongest ROAS?
+- Where does the funnel break?
+- Which audience should receive more budget?
+- Which acquisition source brings volume but poor conversion?
 
 ## Example KPIs
 
@@ -26,6 +39,10 @@ The notebooks focus on common performance marketing questions such as:
 - CAC
 - ROAS
 
-## Purpose
+## Repository structure
 
-These templates are designed for marketing, growth, and performance analysis using CSV exports from platforms such as Meta Ads, Google Ads, GA4, CRM tools, and email marketing platforms.
+```text
+notebooks/   Python notebooks for analysis
+data/        Sample datasets
+outputs/     Charts and exported results
+notes/       KPI definitions and formulas
