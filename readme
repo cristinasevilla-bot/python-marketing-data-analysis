@@ -1,0 +1,31 @@
+# Python Marketing Data Analysis Templates
+
+This repository contains practical Python templates for marketing and growth analysis.
+
+The notebooks focus on common performance marketing questions such as:
+
+- Which channel brings the highest-quality leads?
+- Which campaign has the best ROAS?
+- Where does the funnel break?
+- How do show-up rates and lead-to-sale rates compare by channel?
+- Which segments should receive more or less budget?
+
+## Tools used
+
+- Python
+- pandas
+- matplotlib
+- Google Colab
+
+## Example KPIs
+
+- Lead to Sale Rate
+- Show Up Rate
+- Attendee to Sale Rate
+- CPL
+- CAC
+- ROAS
+
+## Purpose
+
+These templates are designed for marketing, growth, and performance analysis using CSV exports from platforms such as Meta Ads, Google Ads, GA4, CRM tools, and email marketing platforms.
